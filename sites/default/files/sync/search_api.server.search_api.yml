@@ -1,0 +1,17 @@
+uuid: d41a340d-281b-4119-b303-e00ce8c9a3ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: search_api
+name: 'search API'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  partial_matches: true
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2276e184-b956-42b0-a83f-e6f28cef7a1b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>$PROJECT_DIR$/composer.json</executablePath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <splitter split-orientation="horizontal" split-proportion="0.3796049">
+            <split-first>
+              <leaf>
+                <file leaf-file-name="Company_Block.php" pinned="false" current-in-tab="false">
+                  <entry file="file://$PROJECT_DIR$/modules/custom/company/src/Plugin/Block/Company_Block.php">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="618">
+                        <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+                <file leaf-file-name="company.module" pinned="false" current-in-tab="false">
+                  <entry file="file://$PROJECT_DIR$/modules/custom/company/company.module">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="286">
+                        <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+                <file leaf-file-name="company.html.twig" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/modules/custom/company/templates/company.html.twig">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="207">
+                        <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
+            </split-first>
+            <split-second>
+              <leaf>
+                <file leaf-file-name="taxonomy_categories.module" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="616">
+                        <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+                <file leaf-file-name="my-taxonomy-categories.html.twig" pinned="false" current-in-tab="false">
+                  <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="690">
+                        <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
+            </split-second>
+          </splitter>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="d8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BlockCategories.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="134" column="18" lean-forward="true" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+              <folding>
+                <element signature="e#7#87#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block_user_node.module" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/block_user_node.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node.html.twig</find>
+      <find>template_preprocess_HOOK</find>
+      <find>node</find>
+      <find>preprocess_pager</find>
+      <find>title</find>
+      <find>$prev</find>
+      <find>use-ajax</find>
+      <find>nid</find>
+      <find>sendmail_path</find>
+      <find>$link</find>
+      <find>form</find>
+      <find>kint\(\$form\[\'node\'\]\)\;\ndie\(\)\;</find>
+      <find>\n    \}</find>
+      <find>HtmlCommand</find>
+      <find>FacebookAuthenticationException</find>
+      <find>consumer_key</find>
+      <find>external</find>
+      <find>memory_limit</find>
+      <find>FUNCTIONALITY</find>
+      <find>data-tweet-limit</find>
+      <find>fieldset</find>
+      <find>defaultConfiguration</find>
+      <find>$config['tweet_limit']</find>
+      <find>$render['block']['#attributes']['data-tweet-limit']</find>
+      <find>['functionality']['tweet_limit']</find>
+      <find>twitter_block</find>
+      <find>tweet_limit</find>
+      <find>attributes</find>
+      <find>\n    \$rows \= \[\]\;</find>
+      <find>$rows[] = $term-&gt;getName();</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" />
+        <option value="$PROJECT_DIR$/modules/custom/load_content/src/Controller/LoadContentController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/controllernode.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/redirect_node/src/Form/NodeForm.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/catalog.xml" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/XmlIdController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/company/company.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/company/company.links.menu.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/company/company.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/block_user_node/src/Plugin/Block/UserNode.php" />
+        <option value="$PROJECT_DIR$/modules/custom/company/company.module" />
+        <option value="$PROJECT_DIR$/modules/custom/company/templates/company.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/company/src/Plugin/Block/Company_Block.php" />
+        <option value="$PROJECT_DIR$/modules/custom/company/src/Form/CompanySave.php" />
+        <option value="$PROJECT_DIR$/core/lib/Drupal/Core/Config/Schema/Element.php" />
+        <option value="$PROJECT_DIR$/core/lib/Drupal.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Form/Facebook/Exceptions/FacebookResponseException.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.services.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/EventSubscriber/FacebookRequestException.php" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/EventSubscriber/FacebookPostSubscriber.php" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_page/config/install/facebook_page.settings.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_page_plugin/js/fb.js" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/login.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OutputArticleController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/controllernode.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/controllernode.links.menu.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller/OutputArticleController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.links.menu.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller/ArticlePostController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Form/TwitterBlockSettingsForm.php" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Block/TwitterBlock.php" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_block/composer.json" />
+        <option value="$PROJECT_DIR$/modules/contrib/twitter_block/composer.json" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php" />
+        <option value="$PROJECT_DIR$/core/lib/Drupal/Core/Entity/EntityStorageInterface.php" />
+        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module" />
+        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/core/assets/vendor/jquery.ui/package.json" />
+      <path value="$PROJECT_DIR$/core/package.json" />
+      <path value="$PROJECT_DIR$/libraries/colorbox/package.json" />
+      <path value="$PROJECT_DIR$/modules/contrib/paragraphs/css/package.json" />
+      <path value="$PROJECT_DIR$/themes/contrib/bootstrap/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="54738d38-3cad-45f5-90e2-85d8bf7c1963" name="localhost" />
+      <server host="hannibal" id="3124d912-f361-4f3a-9ec9-aeb408fbd6bd" name="hannibal" />
+      <server host="d8.loc" id="375b610f-27c4-40ae-94ed-78890c98e06e" name="d8.loc" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsStream" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-browserkit-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink-goutte-driver" />
+      <path value="$PROJECT_DIR$/vendor/behat/mink" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coder" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/fabpot/goutte" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/easyrdf/easyrdf" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-feed" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/jcalderonzumba/mink-phantomjs-driver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/jcalderonzumba/gastonjs" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/class-loader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/facebook/graph-sdk" />
+      <path value="$PROJECT_DIR$/vendor/j7mbo/twitter-api-php" />
+    </include_path>
+  </component>
+  <component name="PhpXdebugProxy" ide_key="PhpStorm" host="127.0.0.1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="137" />
+    <option name="y" value="-4" />
+    <option name="width" value="1319" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html/info.php" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block" />
+      <recent name="$PROJECT_DIR$/modules/contrib/twitter_block" />
+      <recent name="$PROJECT_DIR$/modules/custom/facebook_post" />
+      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src/Controller" />
+      <recent name="$PROJECT_DIR$/modules/custom/company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block" />
+      <recent name="$PROJECT_DIR$/modules/custom" />
+      <recent name="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller" />
+      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src/Controller" />
+      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2276e184-b956-42b0-a83f-e6f28cef7a1b" name="Default" comment="" />
+      <created>1523427929553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523427929553</updated>
+      <workItem from="1523427933205" duration="27113000" />
+      <workItem from="1523476480785" duration="2321000" />
+      <workItem from="1523513359585" duration="7721000" />
+      <workItem from="1523600011897" duration="7829000" />
+      <workItem from="1523610693860" duration="1553000" />
+      <workItem from="1523612271076" duration="17124000" />
+      <workItem from="1523727420674" duration="6014000" />
+      <workItem from="1523858970409" duration="2620000" />
+      <workItem from="1523861822383" duration="4155000" />
+      <workItem from="1523883651291" duration="3698000" />
+      <workItem from="1523907027819" duration="14871000" />
+      <workItem from="1523946785904" duration="28798000" />
+      <workItem from="1524031964699" duration="22167000" />
+      <workItem from="1524081875084" duration="3800000" />
+      <workItem from="1524117578738" duration="31175000" />
+      <workItem from="1524153374695" duration="14000" />
+      <workItem from="1524159609036" duration="634000" />
+      <workItem from="1524204768570" duration="26493000" />
+      <workItem from="1524245783676" duration="12978000" />
+      <workItem from="1524391855793" duration="9591000" />
+      <workItem from="1524418665204" duration="5217000" />
+      <workItem from="1524463704734" duration="24505000" />
+      <workItem from="1524495684399" duration="238000" />
+      <workItem from="1524515961538" duration="30000" />
+      <workItem from="1524550774355" duration="2911000" />
+      <workItem from="1524553709152" duration="104000" />
+      <workItem from="1524553845736" duration="1015000" />
+      <workItem from="1524555480326" duration="2612000" />
+      <workItem from="1524560566570" duration="2993000" />
+      <workItem from="1524572974971" duration="8720000" />
+      <workItem from="1524595792911" duration="10903000" />
+      <workItem from="1524636135666" duration="23668000" />
+      <workItem from="1524687575191" duration="3521000" />
+      <workItem from="1524722605835" duration="32763000" />
+      <workItem from="1524809156321" duration="29969000" />
+      <workItem from="1524840511804" duration="1742000" />
+      <workItem from="1524908122263" duration="12797000" />
+      <workItem from="1524929505659" duration="611000" />
+      <workItem from="1525241574897" duration="23721000" />
+      <workItem from="1525286341337" duration="9146000" />
+      <workItem from="1525340429197" duration="21000" />
+      <workItem from="1525340477354" duration="5000" />
+      <workItem from="1525340511764" duration="6889000" />
+      <workItem from="1525414099243" duration="15891000" />
+      <workItem from="1525460357833" duration="3000" />
+      <workItem from="1525513707256" duration="9422000" />
+      <workItem from="1525525933993" duration="5546000" />
+      <workItem from="1525615998258" duration="1622000" />
+      <workItem from="1525673275329" duration="26216000" />
+      <workItem from="1525713343268" duration="2089000" />
+      <workItem from="1525724425727" duration="1127000" />
+      <workItem from="1525759469480" duration="21011000" />
+      <workItem from="1525857150730" duration="13002000" />
+      <workItem from="1525932781442" duration="1892000" />
+      <workItem from="1525935301969" duration="26000" />
+      <workItem from="1525935399392" duration="25574000" />
+      <workItem from="1526019011670" duration="4374000" />
+      <workItem from="1526119028367" duration="606000" />
+      <workItem from="1526277938644" duration="11399000" />
+      <workItem from="1526364187754" duration="27538000" />
+      <workItem from="1526451781433" duration="11871000" />
+      <workItem from="1526467871725" duration="15339000" />
+      <workItem from="1526537228744" duration="26749000" />
+      <workItem from="1526624683013" duration="26526000" />
+      <workItem from="1526883127055" duration="2497000" />
+      <workItem from="1527067429838" duration="12771000" />
+      <workItem from="1527090484300" duration="291000" />
+      <workItem from="1527104151422" duration="5045000" />
+      <workItem from="1527144434915" duration="29933000" />
+      <workItem from="1527354461059" duration="7176000" />
+      <workItem from="1527453631498" duration="4620000" />
+      <workItem from="1527487993009" duration="12147000" />
+      <workItem from="1527541905759" duration="1826000" />
+      <workItem from="1527573495510" duration="606000" />
+      <workItem from="1527594275693" duration="1697000" />
+      <workItem from="1527660614940" duration="10999000" />
+      <workItem from="1527747338570" duration="8842000" />
+      <workItem from="1527833526159" duration="12527000" />
+      <workItem from="1528038110435" duration="1880000" />
+      <workItem from="1528092613775" duration="21332000" />
+      <workItem from="1528179286730" duration="36830000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="878268000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.0" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917318" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.24901807" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+      <window_info id="Favorites" order="1" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32970452" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28672427" />
+      <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32970452" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.0" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="1" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/controllernode.links.menu.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.links.menu.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.routing.yml" />
+    <entry file="file:///etc/apache2/ssl/apache.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/facebook_post/src/Controller/ArticlePostController.php" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.routing.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Block/TwitterBlock.php" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/composer.json" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Form/TwitterBlockSettingsForm.php" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/src/Tests/TwitterBlockTest.php" />
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/twitter_block.module" />
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/README.txt" />
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/config/schema/twitter_block.schema.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/contrib/twitter_block/composer.json" />
+    <entry file="file:///etc/php/7.1/cli/php.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="405" column="19" lean-forward="true" selection-start-line="405" selection-start-column="19" selection-end-line="405" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.libraries.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Block/TwitterBlock.php" />
+    <entry file="file://$PROJECT_DIR$/core/includes/bootstrap.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="271" column="24" selection-start-line="271" selection-start-column="9" selection-end-line="271" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.info.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="198" column="43" selection-start-line="198" selection-start-column="43" selection-end-line="198" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/customform/src/Form/UserForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/load_content/src/Controller/LoadContentController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/mypage/src/Controller/HomepageController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/src/Form/NodeForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2996" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.cache/.fr-Df1trn/ctools_term_lineage.tar_">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/blockuser.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Entity/EntityStorageInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="196" column="34" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#7#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/src/Form/CompanySave.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+          <folding>
+            <element signature="e#39#73#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/src/Plugin/Block/Company_Block.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/src/Plugin/Block/UserNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/block/block.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/templates/block-user-node.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/block_user_node.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/templates/company.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="134" column="18" lean-forward="true" selection-start-line="134" selection-start-column="18" selection-end-line="134" selection-end-column="18" />
+          <folding>
+            <element signature="e#7#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

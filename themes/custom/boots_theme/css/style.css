@@ -1,0 +1,54 @@
+/**
+ * Place your custom styles here.
+ */
+img {
+    float: left;!important;
+    clear: both;!important;
+}
+.views-row {
+    clear: both;!important;
+}
+.field--item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.field--item a {
+    color: red;
+}
+.field--item a:link, a:visited {
+    text-decoration: none;
+}
+.field--item a:hover, a:active {
+    color: green;
+    font-size: 17px;
+}
+.field--item p:first-letter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: #0000ff;
+}
+.content {
+    height: 360px;
+}
+.prev-node {
+    float: left;
+    max-width: 120px;
+}
+.next-node {
+    float: right;
+    max-width: 120px;
+}
+.next-node a {
+    border: 4px solid #7c648a;
+    margin-top: 100px;
+    color: #18b6ae;
+    background: #7c648a;
+    text-decoration: none
+}
+.prev-node a {
+    border: 4px solid #7c648a;
+    margin-top: 100px;
+    color: #18b6ae;
+    background: #7c648a;
+    text-decoration: none
+}

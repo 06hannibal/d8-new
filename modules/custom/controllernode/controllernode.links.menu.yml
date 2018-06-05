@@ -1,0 +1,15 @@
+controllernode.mynode:
+  title: 'Node'
+  description: 'example'
+  route_name: controllernode.mynode
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main
+
+controllernode.filexml:
+  title: 'File XML'
+  description: 'example'
+  route_name: controllernode.filexml
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main

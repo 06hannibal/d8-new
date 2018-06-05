@@ -1,0 +1,7 @@
+name: Custom Form
+description: Field - phone, text, select list, e-mail.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

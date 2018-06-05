@@ -1,0 +1,8 @@
+name: 'Twitter Custom Block'
+description: 'Provides configurable blocks for a Twitter feed.'
+type: module
+package: Custom
+core: '8.x'
+dependencies:
+  - block
+project: 'twitter_custom_block'

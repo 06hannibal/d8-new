@@ -1,0 +1,22 @@
+uuid: cd04a8a1-2013-4bcd-b8d3-79dab76c2b11
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: boots_theme_help
+theme: boots_theme
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

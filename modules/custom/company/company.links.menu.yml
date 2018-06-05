@@ -1,0 +1,7 @@
+company.form:
+  title: 'company'
+  description: 'the form in which the name and year of the company are displayed'
+  route_name: company.form
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main

@@ -1,0 +1,7 @@
+name: Node Output
+description: Output of the first 10 nod.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

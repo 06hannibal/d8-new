@@ -1,0 +1,29 @@
+uuid: 78c5c0fa-9b15-4290-a438-5e1ca8a85406
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ganre
+    - node.type.film
+    - taxonomy.vocabulary.genre
+id: node.film.field_ganre
+field_name: field_ganre
+entity_type: node
+bundle: film
+label: ganre
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      genre: genre
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

@@ -1,0 +1,7 @@
+my_email.my_email:
+  title: 'Email Form'
+  description: 'example'
+  route_name: my_email.my_email
+  weight: 100
+  #If menu_name is omitted, the "Tools" menu will be used.
+  menu_name: main

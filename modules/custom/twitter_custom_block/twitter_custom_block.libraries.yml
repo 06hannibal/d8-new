@@ -1,0 +1,3 @@
+widgets:
+  js:
+    https://platform.facebook.com/widgets.js: { type: external }

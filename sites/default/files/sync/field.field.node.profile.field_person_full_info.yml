@@ -1,0 +1,34 @@
+uuid: 57dbfb77-d78a-4f8a-bbf4-e9456b4e4436
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_full_info
+    - node.type.profile
+    - paragraphs.paragraphs_type.profile
+  module:
+    - entity_reference_revisions
+id: node.profile.field_person_full_info
+field_name: field_person_full_info
+entity_type: node
+bundle: profile
+label: Person
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      profile: profile
+    target_bundles_drag_drop:
+      profile:
+        enabled: true
+        weight: 3
+      video:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

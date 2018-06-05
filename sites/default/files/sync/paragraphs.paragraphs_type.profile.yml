@@ -1,0 +1,11 @@
+uuid: 34faa27f-4591-4474-bf74-36b0a4b4ec65
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:5d93bc81-2646-4c08-aeb7-358fe986bef8'
+id: profile
+label: profile
+icon_uuid: 5d93bc81-2646-4c08-aeb7-358fe986bef8
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,6 @@
+mypage.home:
+  path: '/home'
+  defaults:
+    _controller: 'Drupal\mypage\Controller\HomepageController::home'
+  requirements:
+    _access: 'TRUE'

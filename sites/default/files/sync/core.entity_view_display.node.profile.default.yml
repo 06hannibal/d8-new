@@ -1,0 +1,29 @@
+uuid: eca92dcf-00d9-419c-84b5-3a12214ee270
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.profile.body
+    - field.field.node.profile.field_person_full_info
+    - node.type.profile
+  module:
+    - entity_reference_revisions
+    - user
+id: node.profile.default
+targetEntityType: node
+bundle: profile
+mode: default
+content:
+  field_person_full_info:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  body: true
+  langcode: true
+  links: true

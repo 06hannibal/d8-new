@@ -1,0 +1,45 @@
+uuid: 079fb8a1-6359-452a-b499-c367a74df3ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.profile.field_picture
+    - field.field.paragraph.profile.field_text
+    - field.field.paragraph.profile.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.profile
+  module:
+    - image
+id: paragraph.profile.default
+targetEntityType: paragraph
+bundle: profile
+mode: default
+content:
+  field_picture:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_text:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

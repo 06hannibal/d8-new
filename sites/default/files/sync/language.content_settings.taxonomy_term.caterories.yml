@@ -1,0 +1,11 @@
+uuid: 14750e02-1aaa-40de-8667-29b934f9815a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.caterories
+id: taxonomy_term.caterories
+target_entity_type_id: taxonomy_term
+target_bundle: caterories
+default_langcode: site_default
+language_alterable: false

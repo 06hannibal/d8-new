@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function taxonomy_categories_theme() {
+  return [
+    'my_taxonomy_categories' => [
+      'variables' => [
+        'level_1_toyota' => NULL,
+        'level_2_toyota' => NULL,
+        'level_3_toyota' => NULL,
+        'level_22_toyota' => NULL,
+        'level_32_toyota' => NULL,
+        'level_1_volkswagen' => NULL,
+        'level_2_volkswagen' => NULL,
+        'level_3_volkswagen' => NULL,
+        'level_22_volkswagen' => NULL,
+        'level_32_volkswagen' => NULL,
+      ],
+    ],
+  ];
+}

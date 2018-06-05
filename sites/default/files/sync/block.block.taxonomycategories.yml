@@ -1,0 +1,20 @@
+uuid: 4e34ce0a-f572-4952-b21e-8413d2257067
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy_categories
+  theme:
+    - boots_theme
+id: taxonomycategories
+theme: boots_theme
+region: header
+weight: 0
+provider: null
+plugin: taxonomy_categories
+settings:
+  id: taxonomy_categories
+  label: 'Taxonomy Categories'
+  provider: taxonomy_categories
+  label_display: '0'
+visibility: {  }

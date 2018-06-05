@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function block_user_node_theme()
+{
+  return [
+    'block_user_node' => [
+      'variables' => [
+        'header' => NULL,
+        'rows' => NULL,
+      ],
+    ],
+  ];
+}

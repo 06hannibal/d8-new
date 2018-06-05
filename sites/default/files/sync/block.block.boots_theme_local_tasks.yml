@@ -1,0 +1,22 @@
+uuid: f1c994a3-fca3-4d74-bc3d-2729c3ab9013
+langcode: en
+status: true
+dependencies:
+  theme:
+    - boots_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: boots_theme_local_tasks
+theme: boots_theme
+region: sidebar_first
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: admin
+  provider: core
+  label_display: visible
+  primary: true
+  secondary: true
+visibility: {  }

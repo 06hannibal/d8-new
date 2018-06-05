@@ -1,0 +1,10 @@
+name: User Node
+description: User and Node block.
+package: Custom
+type: module
+
+# core: 8.x
+core: 8.x
+
+dependencies:
+  - block

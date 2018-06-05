@@ -1,0 +1,20 @@
+uuid: f1d0c755-2e09-440d-b802-c89720fe994c
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - boots_theme
+id: boots_theme_languageswitcher
+theme: boots_theme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility: {  }

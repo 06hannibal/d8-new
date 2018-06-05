@@ -1,0 +1,7 @@
+customform.userform:
+  path: '/userform'
+  defaults:
+    _form: '\Drupal\customform\Form\UserForm'
+    _title: 'User Form'
+  requirements:
+    _access: 'TRUE'

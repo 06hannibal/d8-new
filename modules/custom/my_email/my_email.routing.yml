@@ -1,0 +1,7 @@
+my_email.my_email:
+  path: '/email_form'
+  defaults:
+    _form: '\Drupal\my_email\Form\EmailForm'
+    _title: 'Email Form'
+  requirements:
+    _access: 'TRUE'

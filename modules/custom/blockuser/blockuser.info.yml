@@ -1,0 +1,10 @@
+name: Block User
+description: date and time when the user came.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x
+
+dependencies:
+  - block

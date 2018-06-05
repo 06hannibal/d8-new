@@ -1,0 +1,34 @@
+uuid: d1c80cce-5658-4516-98ed-3743c22666c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_youtube
+    - node.type.youtobe
+    - paragraphs.paragraphs_type.video
+  module:
+    - entity_reference_revisions
+id: node.youtobe.field_youtube
+field_name: field_youtube
+entity_type: node
+bundle: youtobe
+label: youtube
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      video: video
+    target_bundles_drag_drop:
+      profile:
+        weight: 3
+        enabled: false
+      video:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

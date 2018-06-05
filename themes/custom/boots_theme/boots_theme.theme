@@ -1,0 +1,83 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+use Drupal\node\NodeInterface;
+use Drupal\Core\Link;
+use Drupal\Component\Serialization\Json;
+use Drupal\Core\Block\BlockBase;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Url;
+use Drupal\Component\Render\FormattableMarkup;
+
+
+/**
+ * @param NodeInterface $node
+ * @param string $position
+ * @return mixed
+ */
+function boots_theme_get_node_link(NodeInterface $node, $position) {
+  if (!in_array($position, ['next', 'prev'])) {
+    throw new \InvalidArgumentException('The $position value is invalid');
+  }
+
+  $operators = [
+    'condition' => [
+      'next' => '>=',
+      'prev' => '<=',
+    ],
+    'sort' => [
+      'next' => 'ASC',
+      'prev' => 'DESC',
+    ],
+  ];
+
+  return \Drupal::database()
+    ->select('node_field_data', 'nfd')
+    ->fields('nfd', ['title', 'nid'])
+    ->condition('nfd.created', $node->getCreatedTime(), $operators['condition'][$position])
+    ->condition('nfd.nid', $node->id(), '<>')
+    ->condition('nfd.type', $node->bundle())
+    ->orderBy('nfd.created', $operators['sort'][$position])
+    ->range(0, 1)
+    ->execute()
+    ->fetchObject();
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node templates.
+ */
+function boots_theme_preprocess_node(&$variables) {
+  if ($variables['node']->bundle() == 'article') {
+    $prev = boots_theme_get_node_link($variables['node'], 'prev');
+    $next = boots_theme_get_node_link($variables['node'], 'next');
+
+    $variables['prev_node'] = $prev ? Link::createFromRoute($prev->title, 'entity.node.canonical', [
+      'node' => $prev->nid,
+    ],
+      ['attributes' => array(
+        'class' => array('use-ajax','prev-node','next-node'),
+        'data-dialog-type' => 'dialog',
+        'data-dialog-options' => Json::encode(array(
+          'width' => 800,
+          'height' => 700,
+        )))]) : NULL;
+
+    $variables['next_node'] = $next ? Link::createFromRoute($next->title,
+      'entity.node.canonical', [
+      'node' => $next->nid,
+    ],
+      ['attributes' => array(
+      'class' => array('use-ajax','prev-node','next-node'),
+      'data-dialog-type' => 'dialog',
+      'data-dialog-options' => Json::encode(array(
+        'width' => 800,
+        'height' => 700,
+      )))]) : NULL;
+  }
+}

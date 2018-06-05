@@ -1,0 +1,14 @@
+uuid: a3a4f780-9830-4752-9e7e-0f18991dec42
+langcode: en
+status: true
+dependencies: {  }
+name: 1000px
+label: 1000px
+effects:
+  1e2f32f2-27ed-42b6-94cd-3c99b50f8c73:
+    uuid: 1e2f32f2-27ed-42b6-94cd-3c99b50f8c73
+    id: image_resize
+    weight: 1
+    data:
+      width: 400
+      height: 400

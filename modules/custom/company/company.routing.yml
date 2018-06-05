@@ -1,0 +1,8 @@
+company.form:
+  path: '/company'
+  defaults:
+    _form: '\Drupal\company\Form\CompanySave'
+    _title: 'Node Save'
+  requirements:
+    _access: 'TRUE'
+

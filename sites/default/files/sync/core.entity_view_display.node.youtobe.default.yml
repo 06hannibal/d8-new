@@ -1,0 +1,33 @@
+uuid: 3917f1fe-c37b-400d-9f55-2fd7602d83e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.youtobe.body
+    - field.field.node.youtobe.field_youtube
+    - node.type.youtobe
+  module:
+    - entity_reference_revisions
+    - user
+id: node.youtobe.default
+targetEntityType: node
+bundle: youtobe
+mode: default
+content:
+  field_youtube:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  langcode: true

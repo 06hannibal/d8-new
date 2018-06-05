@@ -1,0 +1,5 @@
+name: 'Redirect Node'
+description: 'creates and replaces the node'
+type: module
+package: Custom
+core: '8.x'

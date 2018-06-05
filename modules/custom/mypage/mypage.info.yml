@@ -1,0 +1,6 @@
+name: mypage
+description: 'mypage'
+type: module
+package: Custom
+core: '8.x'
+

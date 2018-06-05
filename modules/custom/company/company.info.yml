@@ -1,0 +1,7 @@
+name: Company
+description: the form in which the name and year of the company are displayed.
+package: Custom
+
+type: module
+# core: 8.x
+core: 8.x

@@ -1,0 +1,29 @@
+uuid: bd11ef8a-5cf5-4a56-beed-fbf0944be9b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_tanks
+    - node.type.gallery
+  module:
+    - image
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  field_tanks:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  body: true
+  langcode: true
+  links: true

@@ -1,0 +1,7 @@
+redirect_node.redirect:
+  path: '/node_form'
+  defaults:
+    _form: '\Drupal\redirect_node\Form\NodeForm'
+    _title: 'Node Form'
+  requirements:
+    _access: 'TRUE'

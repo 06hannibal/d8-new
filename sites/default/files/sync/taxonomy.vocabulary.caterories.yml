@@ -1,0 +1,9 @@
+uuid: fd5dc687-f93d-4539-985a-24ca83958ebd
+langcode: en
+status: true
+dependencies: {  }
+name: Caterories
+vid: caterories
+description: 'new dictionary'
+hierarchy: 1
+weight: 0

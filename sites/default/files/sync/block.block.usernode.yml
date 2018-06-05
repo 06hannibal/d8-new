@@ -1,0 +1,20 @@
+uuid: c809a631-b330-46d6-8828-61e1428b48bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_user_node
+  theme:
+    - boots_theme
+id: usernode
+theme: boots_theme
+region: content
+weight: 0
+provider: null
+plugin: block_user_node
+settings:
+  id: block_user_node
+  label: 'User Node'
+  provider: block_user_node
+  label_display: '0'
+visibility: {  }

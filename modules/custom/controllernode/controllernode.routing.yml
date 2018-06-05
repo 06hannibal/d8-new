@@ -1,0 +1,23 @@
+controllernode.mynode:
+  path: '/MyNode'
+  defaults:
+    _controller: '\Drupal\controllernode\Controller\MyNodeController::MyNode'
+    _title: 'output nodes'
+  requirements:
+    _access: 'TRUE'
+
+controllernode.filexml:
+  path: '/xml'
+  defaults:
+    _controller: '\Drupal\controllernode\Controller\OpenFileXmlController::FileXml'
+    _title: 'open xml'
+  requirements:
+    _access: 'TRUE'
+
+controllernode.xmlid:
+  path: '/save'
+  defaults:
+    _form: '\Drupal\controllernode\Form\NodeSave'
+    _title: 'Node Save'
+  requirements:
+    _access: 'TRUE'

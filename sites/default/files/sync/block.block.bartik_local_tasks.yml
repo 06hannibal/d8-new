@@ -1,0 +1,22 @@
+uuid: 8286f10b-012e-4a1c-8c9e-c1f64e99069a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bartik
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: bartik_local_tasks
+theme: bartik
+region: sidebar_first
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: admin
+  provider: core
+  label_display: visible
+  primary: true
+  secondary: true
+visibility: {  }

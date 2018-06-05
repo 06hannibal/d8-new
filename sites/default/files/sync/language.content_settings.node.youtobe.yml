@@ -1,0 +1,16 @@
+uuid: 0c1ad8a7-526c-4534-a3c6-3fdc4445650b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.youtobe
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.youtobe
+target_entity_type_id: node
+target_bundle: youtobe
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,36 @@
+uuid: 0fec9e92-35a9-4795-a4ef-8b96f85f36a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - twitter_block
+  theme:
+    - boots_theme
+id: twitterblock
+theme: boots_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: twitter_block
+settings:
+  id: twitter_block
+  label: 'Twitter block'
+  provider: twitter_block
+  label_display: '0'
+  username: HromadskeUA
+  theme: dark
+  link_color: ''
+  width: ''
+  height: ''
+  chrome:
+    noheader: '0'
+    nofooter: '0'
+    noborders: '0'
+    noscrollbar: '0'
+    transparent: '0'
+  border_color: ''
+  language: ''
+  tweet_limit: '1'
+  related: ''
+  polite: polite
+visibility: {  }

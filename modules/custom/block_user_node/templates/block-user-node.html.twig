@@ -1,0 +1,56 @@
+<head>
+  <style type="text/css">
+    #block-usernode h2 {
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 50px;
+      color: #b61038;
+    }
+
+    #block-usernode table thead {
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: #b5b607;
+      text-align: center;
+      background: #0f0f0f;
+    }
+
+    #block-usernode table thead tr td {
+      text-align: center;
+    }
+
+    #block-usernode table tbody {
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      background: #3a3a3a;
+      color: #00e676;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <thead>
+  <tr>
+    <td>№</td>
+    <td>title</td>
+    <td>type</td>
+    <td>body</td>
+    <td>user</td>
+    <td>current time</td>
+    <td>previous time</td>
+  </tr>
+  </thead>
+  <tbody>
+  {% for row in rows %}
+    <tr>
+      <td>{{ row.N }}</td>
+      <td>{{ row.title }}</td>
+      <td>{{ row.type }}</td>
+      <td>{{ row.body }}</td>
+      <td>{{ row.user }}</td>
+      <td>{{ row.login }}</td>
+      <td>{{ row.access }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</body>
+
