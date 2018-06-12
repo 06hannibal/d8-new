@@ -5,5 +5,5 @@ dependencies: {  }
 name: genre
 vid: genre
 description: ''
-hierarchy: 0
+hierarchy: 1
 weight: 0

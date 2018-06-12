@@ -1,41 +1,25 @@
 <ul>
-  <li>{{ level_1_toyota }}</li>
-  <ul>
-    <li>{{ level_2_toyota }}</li>
-    {% for Hatchbackt in level_3_toyota %}
-      <ul>
-        <li>{{ Hatchbackt }}</li>
+  {% for row in rows %}
+    <li class="level1"><a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': row.tid}) }}">{{ row.name }}</a>
+      <ul class="level2">
+        {% for children in row.children %}
+        <li class="level22"><a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': row.tid}) }}">{{ children.name }}</a>
+          <ul class="level3">
+            {% for children in children.children %}
+              <li>
+                <a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': row.tid}) }}">{{ children.name }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+          {% endfor %}
+        </li>
       </ul>
-    {% endfor %}
-  </ul>
-  <ul>
-    <li>{{ level_22_toyota }}</li>
-    {% for Hatchbacktt in level_32_toyota %}
-      <ul>
-        <li>{{ Hatchbacktt }}</li>
-      </ul>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </li>
 </ul>
-<ul>
-  <li>{{ level_1_volkswagen }}</li>
-  <ul>
-    <li>{{ level_2_volkswagen }}</li>
-    {% for Hatchbackv in level_3_volkswagen %}
-      <ul>
-        <li>{{ Hatchbackv }}</li>
-      </ul>
-    {% endfor %}
-  </ul>
-  <ul>
-    <li>{{ level_22_volkswagen }}</li>
-    {% for Hatchbackvv in level_32_volkswagen %}
-      <ul>
-        <li>{{ Hatchbackvv }}</li>
-      </ul>
-    {% endfor %}
-  </ul>
-</ul>
+
+
+
 
 
 

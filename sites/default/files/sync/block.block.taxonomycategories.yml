@@ -3,13 +3,14 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - taxonomy_categories
   theme:
     - boots_theme
 id: taxonomycategories
 theme: boots_theme
 region: header
-weight: 0
+weight: -7
 provider: null
 plugin: taxonomy_categories
 settings:
@@ -17,4 +18,9 @@ settings:
   label: 'Taxonomy Categories'
   provider: taxonomy_categories
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

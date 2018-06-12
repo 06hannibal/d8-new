@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - block_user_node
+    - system
   theme:
     - boots_theme
 id: usernode
@@ -17,4 +18,9 @@ settings:
   label: 'User Node'
   provider: block_user_node
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

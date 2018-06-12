@@ -52,3 +52,15 @@ img {
     background: #7c648a;
     text-decoration: none
 }
+ul.level2 {
+    display: none;
+}
+ul.level3 {
+    display: none;
+}
+ul.level2.active {
+    display: block;
+}
+ul.level3.active {
+    display: block;
+}

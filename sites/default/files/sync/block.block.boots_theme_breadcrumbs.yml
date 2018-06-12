@@ -11,7 +11,7 @@ _core:
 id: boots_theme_breadcrumbs
 theme: boots_theme
 region: header
-weight: -7
+weight: -6
 provider: null
 plugin: system_breadcrumb_block
 settings:

@@ -9,7 +9,7 @@ _core:
 id: boots_theme_local_actions
 theme: boots_theme
 region: header
-weight: -7
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:
