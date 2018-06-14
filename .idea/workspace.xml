@@ -2,16 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2276e184-b956-42b0-a83f-e6f28cef7a1b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/custom/registration_form/registration_form.info.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/login_form/login_form.info.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/registration_form/registration_form.routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.links.menu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,29 +44,78 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="FormRegistration.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="280">
+                    <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                    <folding>
+                      <element signature="e#49#79#0#PHP" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="registration_form.info.yml" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.info.yml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="216">
+                    <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="registration_form.routing.yml" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.routing.yml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="150">
+                    <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="d8" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boots_theme.theme" pinned="false" current-in-tab="false">
+      <file leaf-file-name="boots_theme.theme" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="277">
+              <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
               <folding>
                 <element signature="e#7#94#0#PHP" expanded="true" />
-                <element signature="e#96#126#0#PHP" expanded="true" />
+                <element signature="e#96#140#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormRegistration.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php">
+      <file leaf-file-name="menu--account.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="520">
+              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormLogin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="e#49#79#0#PHP" expanded="true" />
               </folding>
@@ -68,14 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
+      <file leaf-file-name="login_form.routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="57" column="6" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="57" selection-end-column="6" />
-              <folding>
-                <element signature="e#40#70#0#PHP" expanded="true" />
-              </folding>
+            <state>
+              <caret column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -84,9 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>use-ajax</find>
-      <find>nid</find>
-      <find>sendmail_path</find>
       <find>$link</find>
       <find>form</find>
       <find>kint\(\$form\[\'node\'\]\)\;\ndie\(\)\;</find>
@@ -114,6 +163,9 @@
       <find>\n          \]\;</find>
       <find>$b</find>
       <find>lo</find>
+      <find>preprocess</find>
+      <find>core/drupal.ajax</find>
+      <find>node__body</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -125,17 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/custom/company/company.routing.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/block_user_node/src/Plugin/Block/UserNode.php" />
-        <option value="$PROJECT_DIR$/modules/custom/company/company.module" />
-        <option value="$PROJECT_DIR$/modules/custom/company/templates/company.html.twig" />
-        <option value="$PROJECT_DIR$/modules/custom/company/src/Plugin/Block/Company_Block.php" />
-        <option value="$PROJECT_DIR$/modules/custom/company/src/Form/CompanySave.php" />
-        <option value="$PROJECT_DIR$/core/lib/Drupal/Core/Config/Schema/Element.php" />
-        <option value="$PROJECT_DIR$/core/lib/Drupal.php" />
-        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" />
-        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Form/Facebook/Exceptions/FacebookResponseException.php" />
-        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.services.yml" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/EventSubscriber/FacebookRequestException.php" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/EventSubscriber/FacebookPostSubscriber.php" />
@@ -150,7 +191,6 @@
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.routing.yml" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/facebook_post.links.menu.yml" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller/ArticlePostController.php" />
-        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php" />
         <option value="$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Form/TwitterBlockSettingsForm.php" />
         <option value="$PROJECT_DIR$/modules/custom/twitter_block/twitter_block.routing.yml" />
         <option value="$PROJECT_DIR$/modules/custom/twitter_block/src/Plugin/Block/TwitterBlock.php" />
@@ -165,17 +205,29 @@
         <option value="$PROJECT_DIR$/core/lib/Drupal/Core/Entity/EntityStorageInterface.php" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module" />
         <option value="$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php" />
-        <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml" />
         <option value="$PROJECT_DIR$/../test/index.php" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_tree-master/src/TaxonomyTermTree.php" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/TaxonomyTermTree.php" />
-        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig" />
-        <option value="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" />
-        <option value="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" />
-        <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" />
         <option value="$PROJECT_DIR$/modules/custom/registration_form/registration_form.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php" />
+        <option value="$PROJECT_DIR$/modules/custom/registration_form/registration_form.links.menu.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/registration_form/registration_form.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/contrib/devel/kint/kint/examples/overview.php" />
+        <option value="$PROJECT_DIR$/themes/contrib/bootstrap/templates/block/block--system-menu-block--account.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/templates/block--system-menu-block--account.html.twig" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php" />
         <option value="$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/js/popap.js" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" />
+        <option value="$PROJECT_DIR$/modules/custom/login_form/login_form.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig" />
+        <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" />
       </list>
     </option>
   </component>
@@ -289,9 +341,9 @@
   <component name="PhpXdebugProxy" ide_key="PhpStorm" host="127.0.0.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="47" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1319" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -301,6 +353,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,30 +377,6 @@
               <item name="d8" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="my_email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="d8" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="my_email" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="d8" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="my_email" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="d8" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
               <item name="registration_form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -366,12 +395,53 @@
               <item name="registration_form" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="boots_theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="boots_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="boots_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="boots_theme" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,18 +455,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom/login_form" />
+      <recent name="$PROJECT_DIR$/themes/custom/boots_theme/js" />
+      <recent name="$PROJECT_DIR$/themes/custom/boots_theme/templates" />
+      <recent name="$PROJECT_DIR$/modules/custom/registration_form" />
       <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block" />
-      <recent name="$PROJECT_DIR$/modules/contrib/twitter_block" />
-      <recent name="$PROJECT_DIR$/modules/custom/facebook_post" />
-      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src/Controller" />
-      <recent name="$PROJECT_DIR$/modules/custom/company" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom/login_form/src/Form" />
       <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block" />
       <recent name="$PROJECT_DIR$/modules/custom" />
       <recent name="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller" />
       <recent name="$PROJECT_DIR$/modules/custom/controllernode/src/Controller" />
-      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -512,12 +582,16 @@
       <workItem from="1528566587914" duration="2197000" />
       <workItem from="1528652291710" duration="9184000" />
       <workItem from="1528697337568" duration="37026000" />
-      <workItem from="1528784028009" duration="8874000" />
+      <workItem from="1528784028009" duration="26881000" />
+      <workItem from="1528870455225" duration="10282000" />
+      <workItem from="1528881898032" duration="24014000" />
+      <workItem from="1528918118847" duration="5477000" />
+      <workItem from="1528956547413" duration="25777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1025297000" />
+    <option name="totallyTimeSpent" value="1108854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,13 +603,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="-11" width="1321" height="780" extended-state="6" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.2600157" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28515318" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32917318" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
@@ -556,22 +630,22 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28672427" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28515318" />
       <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32970452" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
     </layout-to-restore>
@@ -614,330 +688,308 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/load_content/src/Controller/LoadContentController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/mypage/src/Controller/HomepageController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/src/Form/NodeForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2996" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.cache/.fr-Df1trn/ctools_term_lineage.tar_" />
-    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/blockuser.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Entity/EntityStorageInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="196" column="34" selection-start-line="196" selection-start-column="34" selection-end-line="196" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/company/src/Form/CompanySave.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        <state relative-caret-position="308">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/company/src/Plugin/Block/Company_Block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/block/block.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/templates/block-user-node.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/company/templates/company.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/block_user_node.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/form/input.html.twig">
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/my_email.links.menu.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/form/radios.html.twig">
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.routing.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/form/select.html.twig">
+    <entry file="file://$PROJECT_DIR$/modules/custom/customform/customform.routing.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/form/textarea.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/themes/classy/templates/form/form-element.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/src/Plugin/Block/UserNode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/js/attributes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="135" column="69" selection-start-line="135" selection-start-column="69" selection-end-line="135" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/js/theme.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/bootstrap.info.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/bootstrap.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1616">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="175" column="42" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/lib/Drupal/Core/Block/BlockBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/admin_toolbar/src/Tests/AdminToolbarAlterTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/admin_toolbar/js/admin_toolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/contrib/admin_toolbar/js/jquery.hoverIntent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="78" column="84" selection-start-line="78" selection-start-column="76" selection-end-line="78" selection-end-column="84" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/js/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/my_email.routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.info.yml">
+    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.links.menu.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php">
+    <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.links.menu.yml" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/src/Form/NodeForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="128" column="18" lean-forward="true" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-          <folding>
-            <element signature="e#7#87#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="309">
+          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.info.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/customform/src/Form/UserForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#125#155#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu-local-task.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu--main.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/block/block--system-branding-block.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu-local-tasks.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contrib/devel/kint/kint/examples/overview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/block/block--system-menu-block--account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="46" column="6" lean-forward="true" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/templates/menu/menu--account.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/bootstrap.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/block--system-menu-block--account.html.twig" />
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/controllernode.routing.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="113" column="7" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.info.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme">
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#7#94#0#PHP" expanded="true" />
-            <element signature="e#96#126#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/js/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="57" column="6" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="57" selection-end-column="6" />
-          <folding>
-            <element signature="e#40#70#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="319">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_tree-master/taxonomy_tree.info.yml">
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/js/popap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/js/misc/batch.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_tree-master/taxonomy_tree.services.yml">
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/js/misc/ajax.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/js/misc/batch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="450">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_tree-master/src/TaxonomyTermTree.php">
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/js/misc/form.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/contrib/bootstrap/bootstrap.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="145" column="15" lean-forward="true" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OpenFileXmlController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#52#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#46#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/controllernode.info.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/load_content/src/Controller/LoadContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/templates/my-taxonomy-categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="e#52#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="280">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
             <element signature="e#49#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="e#49#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="e#7#94#0#PHP" expanded="true" />
+            <element signature="e#96#140#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -5,6 +5,12 @@ img {
     float: left;!important;
     clear: both;!important;
 }
+/*.name {
+    display: none;!important;
+}*/
+.menu .is-active {
+    display: none;!important;
+}
 .views-row {
     clear: both;!important;
 }

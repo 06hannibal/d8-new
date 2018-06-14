@@ -20,7 +20,7 @@
             $('.level2').on('click', function (event) {
                 event.stopPropagation();
             });
-            }, 2000)
+            }, 2000);
 
 
             setTimeout(function() {
@@ -35,5 +35,7 @@
 
         }
     }
+
 }(jQuery, Drupal));
+
 

@@ -31,7 +31,6 @@ class OpenFileXmlController extends ControllerBase {
       } else {
         $uri = "";
       }
-
       $rows[] = [
         'N' => ++$n,
         'author' => $name->author,

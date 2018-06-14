@@ -1,7 +1,0 @@
-redirect_node.redirect:
-  title: 'Node Form'
-  description: 'example'
-  route_name: redirect_node.redirect
-  weight: 100
-  #If menu_name is omitted, the "Tools" menu will be used.
-  menu_name: main

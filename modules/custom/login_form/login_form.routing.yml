@@ -1,0 +1,7 @@
+login_form.form:
+  path: '/login-form'
+  defaults:
+    _form: '\Drupal\login_form\Form\FormLogin'
+    _title: 'login form'
+  requirements:
+    _access: 'TRUE'

@@ -7,10 +7,12 @@
  * Place your custom PHP code in this file.
  */
 
+use Drupal\Core\Ajax\OpenModalDialogCommand;
 use Drupal\node\NodeInterface;
 use Drupal\Core\Link;
 use Drupal\Component\Serialization\Json;
-
+use Drupal\Core\Url;
+use Drupal\Core\Ajax\AjaxResponse;
 
 /**
  * @param NodeInterface $node
@@ -53,27 +55,75 @@ function boots_theme_preprocess_node(&$variables) {
     $prev = boots_theme_get_node_link($variables['node'], 'prev');
     $next = boots_theme_get_node_link($variables['node'], 'next');
 
-    $variables['prev_node'] = $prev ? Link::createFromRoute($prev->title, 'entity.node.canonical', [
-      'node' => $prev->nid,
-    ],
-      ['attributes' => array(
-        'class' => array('use-ajax','prev-node','next-node'),
-        'data-dialog-type' => 'dialog',
-        'data-dialog-options' => Json::encode(array(
-          'width' => 800,
-          'height' => 700,
-        )))]) : NULL;
-
-    $variables['next_node'] = $next ? Link::createFromRoute($next->title,
-      'entity.node.canonical', [
-      'node' => $next->nid,
-    ],
-      ['attributes' => array(
-      'class' => array('use-ajax','prev-node','next-node'),
+    $popap = ['attributes' => [
+      'class' => ['use-ajax','prev-node','next-node'],
       'data-dialog-type' => 'dialog',
-      'data-dialog-options' => Json::encode(array(
+      'data-dialog-options' => Json::encode([
         'width' => 800,
         'height' => 700,
-      )))]) : NULL;
+      ])]];
+
+    $variables['prev_node'] = $prev ? Link::createFromRoute($prev->title, 'entity.node.canonical', ['node' => $prev->nid,],$popap) : NULL;
+
+    $variables['next_node'] = $next ? Link::createFromRoute($next->title, 'entity.node.canonical', ['node' => $next->nid,], $popap) : NULL;
+  }
+}
+
+function boots_theme_preprocess_menu__account(&$variables) {
+
+  $link = "registration";
+
+  $uid = \Drupal::currentUser()->id();
+  $name = \Drupal::currentUser()->getAccountName();
+
+  $link_form = Url::fromRoute('registration_form.form');
+  $link_form->setOptions([
+    'attributes' => [
+      'class' => ['use-ajax', 'url'],
+      'data-dialog-type' => 'modal',
+      'data-dialog-options' => Json::encode([
+        'width' => 400,
+        'height' => 1500,
+      ]),
+    ],
+  ]);
+
+  $popap = ['attributes' => [
+    'class' => ['use-ajax','name'],
+    'data-dialog-type' => 'modal',
+    'data-dialog-options' => Json::encode([
+      'title' => $name,
+      'width' => 800,
+      'height' => 700,
+    ])]];
+
+  if(!empty($uid)) {
+    $variables['name'] = Link::createFromRoute($name, 'entity.user.canonical', ['user' => $uid,], $popap);
+  } else {
+    $variables['url'] = Link::fromTextAndUrl(t($link), $link_form)->toString();
+  }
+
+  $link_login = "Log in";
+
+  $login_form = Url::fromRoute('user.login');
+  $login_form->setOptions([
+    'attributes' => [
+      'class' => ['use-ajax', 'url'],
+      'data-dialog-type' => 'modal',
+      'data-dialog-options' => Json::encode([
+        'width' => 400,
+        'height' => 400,
+      ]),
+    ],
+  ]);
+
+  $link_logout = "Log ut";
+
+  $login_logout = Url::fromRoute('user.logout');
+
+  if(empty($uid)) {
+  $variables['login'] = Link::fromTextAndUrl(t($link_login), $login_form)->toString();
+  } else {
+    $variables['login'] = Link::fromTextAndUrl(t($link_logout), $login_logout)->toString();
   }
 }
