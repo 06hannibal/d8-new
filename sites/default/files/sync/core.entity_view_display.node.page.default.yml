@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_checkbox
     - node.type.page
   module:
     - text
@@ -22,6 +23,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_checkbox:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   links:
     weight: 101
     region: content

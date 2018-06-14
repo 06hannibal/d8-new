@@ -1,0 +1,23 @@
+uuid: 797f65f9-2363-48d8-a9e5-f74e7339c326
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_checkbox
+    - node.type.page
+id: node.page.field_checkbox
+field_name: field_checkbox
+entity_type: node
+bundle: page
+label: Description
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

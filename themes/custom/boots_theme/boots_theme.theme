@@ -7,12 +7,10 @@
  * Place your custom PHP code in this file.
  */
 
-use Drupal\Core\Ajax\OpenModalDialogCommand;
 use Drupal\node\NodeInterface;
 use Drupal\Core\Link;
 use Drupal\Component\Serialization\Json;
 use Drupal\Core\Url;
-use Drupal\Core\Ajax\AjaxResponse;
 
 /**
  * @param NodeInterface $node
@@ -48,7 +46,7 @@ function boots_theme_get_node_link(NodeInterface $node, $position) {
 }
 
 /**
- * Implements hook_preprocess_HOOK() for node templates.
+ * Implements hook_preprocess_node() for node templates.
  */
 function boots_theme_preprocess_node(&$variables) {
   if ($variables['node']->bundle() == 'article') {
@@ -67,8 +65,25 @@ function boots_theme_preprocess_node(&$variables) {
 
     $variables['next_node'] = $next ? Link::createFromRoute($next->title, 'entity.node.canonical', ['node' => $next->nid,], $popap) : NULL;
   }
+  $link = "registration";
+  $link_form = Url::fromRoute('registration_form.form');
+  $link_form->setOptions([
+    'attributes' => [
+      'class' => ['use-ajax', 'url'],
+      'data-dialog-type' => 'modal',
+      'data-dialog-options' => Json::encode([
+        'width' => 400,
+        'height' => 1500,
+      ]),
+    ],
+  ]);
+
+  $variables['url'] = Link::fromTextAndUrl(t($link), $link_form)->toString();
 }
 
+/**
+ * Implements hook_preprocess_menu__account() for node templates.
+ */
 function boots_theme_preprocess_menu__account(&$variables) {
 
   $link = "registration";
@@ -126,4 +141,20 @@ function boots_theme_preprocess_menu__account(&$variables) {
   } else {
     $variables['login'] = Link::fromTextAndUrl(t($link_logout), $login_logout)->toString();
   }
+}
+
+function boots_theme_preprocess_node__page(&$variables) {
+/*kint($variables['content']['field_checkbox']);*/
+/*kint($variables['content']['field_checkbox']->getValue());*/
+/*kint($variables['node']->get('field_checkbox')->getValue());
+kint($variables['node']->get('field_checkbox')->getString());
+die();*/
+
+  $checkbox = $variables['node']->get('field_checkbox')->getString();
+  if($checkbox == TRUE) {
+    $variables['content'];
+  } else {
+    $variables['content'] = NULL;
+  }
+
 }
