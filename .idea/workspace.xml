@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2276e184-b956-42b0-a83f-e6f28cef7a1b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/owlcarousel_block/owl_carousel_block.info.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/owlcarousel_block/src/Plugin/Block/CarouselBlock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,106 +34,96 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="TwitterCustomBlock.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="273">
+                    <caret line="190" column="20" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="20" />
+                    <folding>
+                      <element signature="e#60#92#0#PHP" expanded="true" />
+                      <element signature="e#402#430#0#PHP" />
+                      <element signature="e#567#748#0#PHP" />
+                      <element signature="e#776#854#0#PHP" />
+                      <element signature="e#891#1176#0#PHP" />
+                      <element signature="e#1218#1640#0#PHP" />
+                      <element signature="e#1684#2040#0#PHP" />
+                      <element signature="e#2078#2543#0#PHP" />
+                      <element signature="e#2574#2655#0#PHP" />
+                      <element signature="e#2697#3072#0#PHP" />
+                      <element signature="e#3118#3721#0#PHP" />
+                      <element signature="e#3743#4269#0#PHP" />
+                      <element signature="e#4300#4538#0#PHP" />
+                      <element signature="e#4570#4811#0#PHP" />
+                      <element signature="e#4841#5028#0#PHP" />
+                      <element signature="e#5059#5140#0#PHP" />
+                      <element signature="e#5183#5656#0#PHP" />
+                      <element signature="e#5697#6502#0#PHP" />
+                      <element signature="e#7722#7831#0#PHP" />
+                      <element signature="e#7837#7949#0#PHP" />
+                      <element signature="e#7955#8174#0#PHP" />
+                      <element signature="e#8180#8316#0#PHP" />
+                      <element signature="e#8322#8431#0#PHP" />
+                      <element signature="e#8570#8685#0#PHP" />
+                      <element signature="e#8863#9187#0#PHP" />
+                      <element signature="e#9190#9242#0#PHP" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="twitter_custom_block.libraries.yml" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml">
+                <provider selected="true" editor-type-id="text-editor" />
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="d8" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="boots_theme.theme" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme">
+      <file leaf-file-name="owl_carousel_block.info.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/owlcarousel_block/owl_carousel_block.info.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="157" column="1" lean-forward="true" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
+            <state relative-caret-position="116">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarouselBlock.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/owlcarousel_block/src/Plugin/Block/CarouselBlock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
-                <element signature="e#212#293#0#PHP" />
-                <element signature="n#boots_theme_get_node_link#0;n#!!top" />
-                <element signature="e#365#489#0#PHP" />
-                <element signature="e#506#653#0#PHP" />
-                <element signature="e#527#578#1#PHP" />
-                <element signature="e#594#648#1#PHP" />
-                <element signature="e#665#723#0#PHP" />
-                <element signature="e#665#761#0#PHP" />
-                <element signature="e#665#853#0#PHP" />
-                <element signature="e#665#899#0#PHP" />
-                <element signature="e#665#944#0#PHP" />
-                <element signature="e#665#1004#0#PHP" />
-                <element signature="e#665#1022#0#PHP" />
-                <element signature="e#1063#1127#0#PHP" />
-                <element signature="n#boots_theme_preprocess_node#0;n#!!top" />
-                <element signature="e#1182#1882#0#PHP" />
-                <element signature="e#1379#1596#0#PHP" />
-                <element signature="e#1396#1595#1#PHP" />
-                <element signature="e#1522#1594#1#PHP" />
-                <element signature="e#1535#1593#1#PHP" />
-                <element signature="e#1968#2207#0#PHP" />
-                <element signature="e#1991#2206#1#PHP" />
-                <element signature="e#2013#2201#1#PHP" />
-                <element signature="e#2121#2194#1#PHP" />
-                <element signature="e#2134#2193#1#PHP" />
-                <element signature="e#2291#2364#0#PHP" />
-                <element signature="e#2605#2844#0#PHP" />
-                <element signature="e#2628#2843#1#PHP" />
-                <element signature="e#2650#2838#1#PHP" />
-                <element signature="e#2758#2831#1#PHP" />
-                <element signature="e#2771#2830#1#PHP" />
-                <element signature="e#2858#3069#0#PHP" />
-                <element signature="e#2875#3068#1#PHP" />
-                <element signature="e#2977#3067#1#PHP" />
-                <element signature="e#2990#3066#1#PHP" />
-                <element signature="e#3074#3294#0#PHP" />
-                <element signature="e#3204#3294#0#PHP" />
-                <element signature="e#3395#3609#1#PHP" />
-                <element signature="e#3417#3604#1#PHP" />
-                <element signature="e#3525#3597#1#PHP" />
-                <element signature="e#3538#3596#1#PHP" />
-                <element signature="e#3693#3904#0#PHP" />
-                <element signature="e#3802#3904#0#PHP" />
+                <element signature="e#57#89#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--page.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig">
+      <file leaf-file-name="BlockUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-360" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu--account.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig">
+      <file leaf-file-name="MyNodeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node--article.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormLogin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_form.routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-end-column="15" />
+            <state relative-caret-position="364">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -181,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/EventSubscriber/FacebookPostSubscriber.php" />
-        <option value="$PROJECT_DIR$/modules/custom/facebook_page/config/install/facebook_page.settings.yml" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_page_plugin/js/fb.js" />
         <option value="$PROJECT_DIR$/modules/custom/facebook_post/src/login.php" />
         <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/OutputArticleController.php" />
@@ -203,7 +193,6 @@
         <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.info.yml" />
         <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.info.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php" />
         <option value="$PROJECT_DIR$/core/lib/Drupal/Core/Entity/EntityStorageInterface.php" />
         <option value="$PROJECT_DIR$/modules/custom/taxonomy_categories/taxonomy_categories.module" />
         <option value="$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php" />
@@ -223,7 +212,6 @@
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/js/style.js" />
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/js/popap.js" />
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.libraries.yml" />
-        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" />
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/css/style.css" />
         <option value="$PROJECT_DIR$/modules/custom/login_form/login_form.info.yml" />
         <option value="$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml" />
@@ -232,6 +220,10 @@
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig" />
         <option value="$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme" />
+        <option value="$PROJECT_DIR$/modules/custom/owlcarousel_block/owlcarousel_block.info.yml" />
+        <option value="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php" />
+        <option value="$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php" />
+        <option value="$PROJECT_DIR$/modules/custom/owlcarousel_block/src/Plugin/Block/CarouselBlock.php" />
       </list>
     </option>
   </component>
@@ -378,6 +370,139 @@
             <path>
               <item name="d8" type="b2602c69:ProjectViewProjectNode" />
               <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="blockuser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="blockuser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="blockuser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="blockuser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="controllernode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="my_email" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="my_email" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="my_email" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="owlcarousel_block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="owlcarousel_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="owlcarousel_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="owlcarousel_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter_custom_block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter_custom_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter_custom_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="twitter_custom_block" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="d8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="d8" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -448,19 +573,19 @@
     <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/custom/owlcarousel_block/src/Plugin" />
+      <recent name="$PROJECT_DIR$/modules/custom/owlcarousel_block/src" />
+      <recent name="$PROJECT_DIR$/modules/custom/login_form/src/Form" />
+      <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block" />
+      <recent name="$PROJECT_DIR$/modules/custom" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/custom/boots_theme/templates" />
       <recent name="$PROJECT_DIR$/modules/custom/login_form" />
       <recent name="$PROJECT_DIR$/themes/custom/boots_theme/js" />
       <recent name="$PROJECT_DIR$/modules/custom/registration_form" />
       <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/custom/login_form/src/Form" />
-      <recent name="$PROJECT_DIR$/modules/custom/twitter_custom_block" />
-      <recent name="$PROJECT_DIR$/modules/custom" />
-      <recent name="$PROJECT_DIR$/modules/custom/facebook_post/src/Controller" />
-      <recent name="$PROJECT_DIR$/modules/custom/controllernode/src/Controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -581,12 +706,13 @@
       <workItem from="1528881898032" duration="24014000" />
       <workItem from="1528918118847" duration="5477000" />
       <workItem from="1528956547413" duration="31993000" />
-      <workItem from="1529005795114" duration="7825000" />
+      <workItem from="1529005795114" duration="8156000" />
+      <workItem from="1529043567486" duration="21295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1122895000" />
+    <option name="totallyTimeSpent" value="1144521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,18 +727,19 @@
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28986645" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32917318" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
-      <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.29457974" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3299293" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
+      <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
       <window_info id="Favorites" order="1" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -620,18 +747,17 @@
       <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32970452" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49921995" visible="true" weight="0.28515318" />
       <window_info id="Structure" order="0" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="11" weight="0.32970452" />
@@ -639,7 +765,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.64274573" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917318" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.50078005" side_tool="true" weight="0.25687352" />
@@ -679,41 +805,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/my_email.links.menu.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/customform/customform.routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/company/company.links.menu.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/registration_form.links.menu.yml" />
     <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/src/Form/NodeForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
           <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.info.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -772,13 +871,6 @@
     <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/block--system-menu-block--account.html.twig" />
     <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/controllernode.routing.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/taxonomy_categories/src/Plugin/Block/BlockCategories.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -845,11 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Form/NodeSave.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-60">
@@ -874,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -895,34 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/custom/registration_form/src/Form/FormRegistration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-997">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <element signature="e#49#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,24 +996,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig">
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="499">
+          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/src/Form/FormLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/login_form/login_form.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/node--page.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        <state relative-caret-position="529">
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/block_user_node/src/Plugin/Block/UserNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/templates/menu--account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/twitter_custom_block.libraries.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/custom/boots_theme/boots_theme.theme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="157" column="1" lean-forward="true" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="e#212#293#0#PHP" />
             <element signature="n#boots_theme_get_node_link#0;n#!!top" />
@@ -984,7 +1078,7 @@
             <element signature="e#2013#2201#1#PHP" />
             <element signature="e#2121#2194#1#PHP" />
             <element signature="e#2134#2193#1#PHP" />
-            <element signature="e#2291#2364#0#PHP" />
+            <element signature="n#boots_theme_preprocess_menu__account#0;n#!!top" />
             <element signature="e#2605#2844#0#PHP" />
             <element signature="e#2628#2843#1#PHP" />
             <element signature="e#2650#2838#1#PHP" />
@@ -1002,8 +1096,89 @@
             <element signature="e#3538#3596#1#PHP" />
             <element signature="e#3693#3904#0#PHP" />
             <element signature="e#3802#3904#0#PHP" />
+            <element signature="e#3908#3978#0#PHP" />
+            <element signature="n#boots_theme_preprocess_node__page#0;n#!!top" />
+            <element signature="e#4063#4095#0#PHP" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/redirect_node/redirect_node.routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/owlcarousel_block/owl_carousel_block.info.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/my_email/src/Form/EmailForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/controllernode/src/Controller/MyNodeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/twitter_custom_block/src/Plugin/Block/TwitterCustomBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="190" column="20" selection-start-line="190" selection-start-column="4" selection-end-line="190" selection-end-column="20" />
+          <folding>
+            <element signature="e#60#92#0#PHP" expanded="true" />
+            <element signature="e#402#430#0#PHP" />
+            <element signature="e#567#748#0#PHP" />
+            <element signature="e#776#854#0#PHP" />
+            <element signature="e#891#1176#0#PHP" />
+            <element signature="e#1218#1640#0#PHP" />
+            <element signature="e#1684#2040#0#PHP" />
+            <element signature="e#2078#2543#0#PHP" />
+            <element signature="e#2574#2655#0#PHP" />
+            <element signature="e#2697#3072#0#PHP" />
+            <element signature="e#3118#3721#0#PHP" />
+            <element signature="e#3743#4269#0#PHP" />
+            <element signature="e#4300#4538#0#PHP" />
+            <element signature="e#4570#4811#0#PHP" />
+            <element signature="e#4841#5028#0#PHP" />
+            <element signature="e#5059#5140#0#PHP" />
+            <element signature="e#5183#5656#0#PHP" />
+            <element signature="e#5697#6502#0#PHP" />
+            <element signature="e#7722#7831#0#PHP" />
+            <element signature="e#7837#7949#0#PHP" />
+            <element signature="e#7955#8174#0#PHP" />
+            <element signature="e#8180#8316#0#PHP" />
+            <element signature="e#8322#8431#0#PHP" />
+            <element signature="e#8570#8685#0#PHP" />
+            <element signature="e#8863#9187#0#PHP" />
+            <element signature="e#9190#9242#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/owlcarousel_block/src/Plugin/Block/CarouselBlock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#57#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/custom/blockuser/src/Plugin/Block/BlockUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
       </provider>
     </entry>
   </component>

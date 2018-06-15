@@ -20,7 +20,7 @@ settings:
   username: HromadskeUA
   theme: dark
   link_color: ''
-  width: ''
+  width: '300'
   height: ''
   chrome:
     noheader: '0'

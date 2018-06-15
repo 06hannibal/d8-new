@@ -34,6 +34,8 @@ class MyNodeController extends ControllerBase {
 
       if (!empty($output->uri)) {
 
+        kint($output->uri);
+
 
         $url = file_create_url($output->uri);
         $uri = Link::fromTextAndUrl($image, Url::fromUri($url));

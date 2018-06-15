@@ -94,9 +94,10 @@
       </div>
     </footer>
   {% endif %}
-  {#{% if node.field_checkbox.value %}#}
   <div{{ content_attributes.addClass('content') }}>
-    {{ content }}
+  {% if body %}
+    {{ content.body }}
+  {% endif %}
+    {{ content.field_checkbox }}
   </div>
- {# {% endif %}#}
 </article>
