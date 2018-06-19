@@ -1,0 +1,14 @@
+<?php
+
+  /**
+   * Implements hook_theme().
+   */
+  function owl_carousel_block_theme() {
+    return [
+      'owl_carousel_block' => [
+        'variables' => [
+          'urls' => NULL,
+          ],
+        ],
+      ];
+    }

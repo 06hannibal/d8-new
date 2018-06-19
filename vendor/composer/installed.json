@@ -1420,6 +1420,64 @@
         }
     },
     {
+        "name": "drupal/owlcarousel",
+        "version": "1.0.0-alpha1",
+        "version_normalized": "1.0.0.0-alpha1",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupal.org/project/owl-carousel",
+            "reference": "8.x-1.0-alpha1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/owlcarousel-8.x-1.0-alpha1.zip",
+            "reference": "8.x-1.0-alpha1",
+            "shasum": "fed6e3f0b20b4f536949b54300ff313dd11048d8"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha1",
+                "datestamp": "1503465544",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Sebastien @Actualys",
+                "homepage": "https://www.drupal.org/user/380104"
+            },
+            {
+                "name": "ipwa",
+                "homepage": "https://www.drupal.org/user/130909"
+            },
+            {
+                "name": "swim",
+                "homepage": "https://www.drupal.org/user/1968266"
+            }
+        ],
+        "description": "Drupal integration for Owl Carousel",
+        "homepage": "https://www.drupal.org/project/owlcarousel",
+        "support": {
+            "source": "http://cgit.drupalcode.org/owlcarousel",
+            "issues": "https://www.drupal.org/project/owlcarousel"
+        }
+    },
+    {
         "name": "drupal/page_manager",
         "version": "dev-4.x",
         "version_normalized": "dev-4.x",

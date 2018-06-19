@@ -20,7 +20,8 @@
         "drupal/rules": "^3.0",
         "drupal/fb_likebox": "^2.0",
         "j7mbo/twitter-api-php": "^1.0",
-        "drupal/twitter_block": "^3.0"
+        "drupal/twitter_block": "^3.0",
+        "drupal/owlcarousel": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.4"

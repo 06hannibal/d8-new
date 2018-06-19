@@ -9,3 +9,4 @@ global-styling:
     - core/drupal.ajax
     - core/drupal.progress
     - core/jquery.once
+    - core/jquery
