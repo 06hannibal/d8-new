@@ -10,7 +10,7 @@ dependencies:
 id: usernode
 theme: boots_theme
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: block_user_node
 settings:

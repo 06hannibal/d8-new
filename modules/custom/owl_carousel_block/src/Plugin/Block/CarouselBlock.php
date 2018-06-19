@@ -27,11 +27,9 @@ class CarouselBlock extends BlockBase {
       '#type' => 'managed_file',
       '#upload_location' => 'public://images',
       '#title' => t('Image'),
-      /*'#upload_validators' => [
-        'file_validate_extensions' => ['jpg', 'jpeg', 'png', 'gif']
-      ],*/
       '#default_value' => isset($this->configuration['image']) ? $this->configuration['image'] : '',
       '#description' => t('The image to display'),
+      '#min' => 1,
       '#multiple' => TRUE,
     ];
 
@@ -47,10 +45,13 @@ class CarouselBlock extends BlockBase {
 
     if (isset($this->configration['image']) && $image != $this->configuration['image']) {
 
-      if (!empty($image[0])) {
-        $file = File::load($image[0]);
-        $file->setPermanent();
-        $file->save();
+      if (!empty($image)) {
+        $files = File::loadMultiple($image);
+
+        foreach ($files as $file) {
+          $file->setPermanent();
+          $file->save();
+        }
       }
     }
 
@@ -68,8 +69,11 @@ class CarouselBlock extends BlockBase {
       if ($file = File::loadMultiple($image)) {
 
         foreach ($file as $key => $value) {
+
           $urls[$key] = file_create_url($value->getFileUri());
+
         }
+
         $build[] = [
           '#theme' => 'owl_carousel_block',
           '#urls' => $urls,

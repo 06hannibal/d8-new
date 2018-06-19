@@ -1,0 +1,23 @@
+uuid: 83b53647-3d54-4d27-aca6-dd8fcc4df88d
+langcode: en
+status: true
+dependencies:
+  module:
+    - owl_carousel_block
+  theme:
+    - boots_theme
+id: owlcarouselblock
+theme: boots_theme
+region: content
+weight: 0
+provider: null
+plugin: owl_carousel_block
+settings:
+  id: owl_carousel_block
+  label: 'Owl Carousel Block'
+  provider: owl_carousel_block
+  label_display: visible
+  image:
+    - '237'
+    - '238'
+visibility: {  }
