@@ -29,11 +29,18 @@ class CarouselBlock extends BlockBase {
       '#title' => t('Image'),
       '#default_value' => isset($this->configuration['image']) ? $this->configuration['image'] : '',
       '#description' => t('The image to display'),
-      '#min' => 1,
       '#multiple' => TRUE,
     ];
 
     return $form;
+  }
+
+  public function blockValidate($form, FormStateInterface $form_state) {
+    $images = $form_state->getValue('image');
+
+    if (count($images)>5) {
+      $form_state->setErrorByName('image', $this->t('The field can contain only 5 values.'));
+    }
   }
 
   /**
@@ -41,12 +48,12 @@ class CarouselBlock extends BlockBase {
    */
   public function blockSubmit($form, FormStateInterface $form_state) {
 
-    $image = $form_state->getValue('image');
+    $images = $form_state->getValue('image');
 
-    if (isset($this->configration['image']) && $image != $this->configuration['image']) {
+    if (isset($this->configration['image']) && $images != $this->configuration['image']) {
 
-      if (!empty($image)) {
-        $files = File::loadMultiple($image);
+      if (!empty($images)) {
+        $files = File::loadMultiple($images);
 
         foreach ($files as $file) {
           $file->setPermanent();
