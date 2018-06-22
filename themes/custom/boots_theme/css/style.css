@@ -126,6 +126,9 @@ li.active a, li.active a:hover {
     display:none;
 }
 
-.tab.active {
+.tab:first-child {
     display:block;
 }
+/*ul li:first-child.active {
+    display:block;
+}*/

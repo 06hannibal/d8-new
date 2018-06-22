@@ -14,7 +14,7 @@
                     $('.tabs ' + currentAttrValue).show().siblings().hide();
 
                     // Change/remove current tab to active
-                    $(this).parent('li').addClass('active').siblings().removeClass('active');
+                    $(this).parent('li').addClass('first-child').siblings().removeClass('first-child');
 
                     e.preventDefault();
                 });
