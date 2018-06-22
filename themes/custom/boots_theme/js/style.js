@@ -3,6 +3,9 @@
     Drupal.behaviors.searchResults = {
         attach:function()
         {
+           /* $(function() {
+                console.log("JQUERY IS READY!");
+            });*/
             /*setTimeout(function() {
                 $(function () {
                     $('.level1').click(function(event){

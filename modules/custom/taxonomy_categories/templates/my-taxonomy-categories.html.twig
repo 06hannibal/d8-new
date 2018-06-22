@@ -1,6 +1,7 @@
 <ul>
   {% for row in rows %}
     <li class="level1"><a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': row.tid}) }}">{{ row.name }}</a>
+
       <ul class="level2">
         {% for children in row.children %}
         <li class="level22"><a href="{{ path('entity.taxonomy_term.canonical', {'taxonomy_term': row.tid}) }}">{{ children.name }}</a>

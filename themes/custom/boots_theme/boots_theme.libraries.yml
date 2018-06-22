@@ -10,3 +10,6 @@ global-styling:
     - core/drupal.progress
     - core/jquery.once
     - core/jquery
+tab:
+  js:
+    js/tab.js: {}
